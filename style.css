@@ -24,12 +24,16 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px;
 }
-
 
 img {
     max-width: 100%;
@@ -53,4 +57,30 @@ header button {
     color: var(--lightPink);
     border: 1px solid var(--lightPink);
     padding: 8px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.community button {
+    border-radius: 32px;
+    border: none;
+    background-color: var(--pink);
+    color: white;
+    font-weight: 700;
+    padding: 16px;
+    width: 180px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.139);
 }
