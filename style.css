@@ -30,6 +30,9 @@ h1, h2, h3 {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 32px;
@@ -83,4 +86,33 @@ main {
     padding: 16px;
     width: 180px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.139);
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info p:not(.big) {
+    color: gray;
+    font-weight: 400;
+}
+
+.big {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info img {
+    width: 35px;
+    height: 30.5px;
 }
