@@ -9,3 +9,48 @@
     --veryDarkCyan: hsl(192, 100%, 9%);
     --veryPaleBlue: hsl(207, 100%, 98%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+header img {
+   width: 120px;
+   height: 19.5px;
+}
+
+header button {
+    border-radius: 32px;
+    color: var(--lightPink);
+    border: 1px solid var(--lightPink);
+    padding: 8px 20px;
+}
