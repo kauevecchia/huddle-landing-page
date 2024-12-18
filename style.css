@@ -64,7 +64,7 @@ header button {
     color: var(--lightPink);
     background-color: white;
     border: 1px solid var(--lightPink);
-    padding: 8px 20px;
+    padding: 6px 20px;
 }
 
 header button:hover {
@@ -265,5 +265,36 @@ svg path {
 
 .attribution a:hover {
     color: lightskyblue;
+}
+
+@media (min-width: 768px) {
+   .flex.feature {
+        flex-direction: row;
+   }
+
+    .flex.stats {
+        flex-direction: row;
+        justify-content: space-evenly;
+   }
+
+   .feature img {
+        width: calc(50% - 32px);
+   }
+
+   .feature-text {
+        font-size: 14px;
+   }
+
+   .reverse img {
+        order: 1;
+   }
+
+   .input input {
+        width: 60%;
+   }
+
+   .input button {
+        width: 25%;
+   }
 }
 
