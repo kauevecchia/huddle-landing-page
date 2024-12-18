@@ -35,11 +35,11 @@ h1, h2, h3 {
 }
 
 .container {
+    padding: 32px;
     flex-direction: column;
     gap: 80px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 32px;
 }
 
 img {
@@ -62,8 +62,13 @@ header img {
 header button {
     border-radius: 32px;
     color: var(--lightPink);
+    background-color: white;
     border: 1px solid var(--lightPink);
     padding: 8px 20px;
+}
+
+header button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.139);
 }
 
 main {
@@ -164,4 +169,96 @@ main {
 
 .pink-button:hover {
     background-color: var(--lightPink);
+}
+
+.footer {
+    background-color: var(--veryDarkCyan);
+    padding: 32px;
+    color: white;
+    gap: 48px;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+}
+
+.newsletter p:nth-child(1) {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.newsletter {
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.newsletter input {
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.input {
+    margin-bottom: 80px;
+    justify-content: flex-end;
+}
+
+.newsletter button {
+    border-radius: 8px;
+    width: 50%;
+}
+
+.background {
+    width: 100vw;
+}
+
+.infos {
+    gap: 48px;
+}
+
+.logo-info {
+    gap: 12px;
+}
+
+svg path {
+    fill: white;
+}
+
+.social {
+    display: flex;
+    gap: 8px;
+}
+
+.contacts {
+    gap: 8px
+}
+
+.contact-info {
+    display: flex;
+    gap: 24px;
+}
+
+.social-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.social-logo:hover .svg-path {
+    fill: lightskyblue;
+}
+
+.attribution {
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: white;
+}
+
+.attribution a:hover {
+    color: lightskyblue;
 }
