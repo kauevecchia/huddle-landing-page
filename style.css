@@ -246,6 +246,10 @@ svg path {
     height: 24px;
 }
 
+.social {
+    margin-top: 48px;
+}
+
 .social-logo:hover .svg-path {
     fill: lightskyblue;
 }
@@ -262,3 +266,4 @@ svg path {
 .attribution a:hover {
     color: lightskyblue;
 }
+
