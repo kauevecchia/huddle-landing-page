@@ -35,7 +35,7 @@ h1, h2, h3 {
 }
 
 .container {
-    padding: 32px;
+    padding: 64px;
     flex-direction: column;
     gap: 80px;
     max-width: 1200px;
@@ -82,17 +82,6 @@ main {
     flex-direction: column;
     gap: 24px;
     align-items: center;
-}
-
-.community button {
-    border-radius: 32px;
-    border: none;
-    background-color: var(--pink);
-    color: white;
-    font-weight: 700;
-    padding: 16px;
-    width: 180px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.139);
 }
 
 .stats {
@@ -298,3 +287,95 @@ svg path {
    }
 }
 
+@media (min-width: 1000px) {
+    .container {
+        padding: 48px;
+    }
+
+    header img {
+        width: 180px;
+        height: 29.25px;
+    }
+
+    .community h1 {
+        font-size: 40px;
+    }
+
+    .community p:first-of-type {
+        width: 60%;
+        line-height: 1.4;
+    }
+
+    .pink-button {
+        width: 270px;
+        padding: 20px;
+    }
+
+    .flex.feature {
+        align-items: center;
+        gap: 48px;
+    }
+
+    .feature-text {
+        text-align: left;
+        gap: 24px;
+    }
+
+    .feature-text h2 {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .feature-text p {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    .cta h1 {
+        font-size: 32px;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .footer {
+        padding: 64px;
+    }
+
+    .infos p {
+        width: 70%;
+    }
+
+    .footer-container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        order: -1
+    }
+
+    .attribution {
+        display: block;
+    }
+
+    .newsletter p:nth-of-type(2) {
+        width: 70%;
+    }
+
+    .input.flex {
+        flex-direction: row;
+        justify-content: start;
+        gap: 24px;
+    }
+
+    .input input {
+        margin: 0;
+        width: 65%;
+        padding: 14px;
+    }
+
+    .input button {
+        padding: 0px 0px;
+    }
+}
